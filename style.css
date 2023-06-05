@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 45px;
+    height: 100vh;
+
+}
+
+.main-container {
+    border: solid black;
+    width: 100%;
+    background-color: #000;
+}
+.header h1 {
+    text-align: center;
+    color: white;
+}
+
+.screen-container {
+    /* border: solid red; */
+    margin: 85px;
+    /* width: 100%; */
+    height: 550px;
+    background-color: #fff;
+}
+.keyboard-container {
+    border: solid green;
+    margin: 85px;
+    /* width: 100%; */
+    height: 350px;
+    background-color: white;
+}
+
+.function-key-container {
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+.function-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: space-around;
+    /* border: solid yellow; */
+    width: 50%;
+    height: 550px;
+}
+
+.function-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: space-around;
+    width: 50%;
+}
+.balance-inquiry {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.balance-inquiry:hover {
+    background-color: rgb(72, 133, 72);
+}
+.deposit {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.deposit:hover {
+    background-color: rgb(72, 133, 72);
+}
+
+.transfer {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.transfer:hover {
+    background-color: rgb(72, 133, 72);
+}
+
+.cash-withdrawal {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 164px;
+}
+
+.cash-withdrawal:hover {
+    background-color: rgb(72, 133, 72);
+}
+
+.setting {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 164px;
+}
+
+.setting:hover {
+    background-color: rgb(72, 133, 72);
+}
+
+.language {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 164px;
+}
+.language:hover {
+    background-color: rgb(72, 133, 72);
+}
