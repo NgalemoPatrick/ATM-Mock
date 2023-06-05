@@ -85,6 +85,7 @@ html, body {
 
 .balance-inquiry:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .deposit {
     /* border: solid black; */
@@ -101,6 +102,7 @@ html, body {
 
 .deposit:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 
 .transfer {
@@ -118,6 +120,7 @@ html, body {
 
 .transfer:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 
 .cash-withdrawal {
@@ -135,6 +138,7 @@ html, body {
 
 .cash-withdrawal:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 
 .setting {
@@ -152,6 +156,7 @@ html, body {
 
 .setting:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 
 .language {
@@ -168,6 +173,7 @@ html, body {
 }
 .language:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .keyboard {
     display: flex;
@@ -267,31 +273,41 @@ html, body {
 
 .number9:hover {
         background-color: rgb(72, 133, 72);
+        cursor: pointer;
 }
 .number8:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number7:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number6:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number5:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number4:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number3:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number2:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number1:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
 .number0:hover {
     background-color: rgb(72, 133, 72);
+    cursor: pointer;
 }
