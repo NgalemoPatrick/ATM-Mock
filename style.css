@@ -29,7 +29,9 @@ html, body {
     background-color: #fff;
 }
 .keyboard-container {
-    border: solid green;
+    display: flex;
+
+    /* border: solid green; */
     margin: 85px;
     /* width: 100%; */
     height: 350px;
@@ -162,4 +164,96 @@ html, body {
 }
 .language:hover {
     background-color: rgb(72, 133, 72);
+}
+.keyboard {
+    /* border: solid black; */
+    background-color: blue;
+    width: 75%;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: solid yellow; */
+    /* background-color: yellow; */
+    width: 25%;
+}
+.enter {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.enter:hover {
+    background-color: rgb(72, 133, 72);
+}
+
+.cancel {
+    /* border: solid black; */
+    width: 225px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.cancel:hover {
+    background-color: rgb(72, 133, 72);
+}
+.line1 {
+    display: flex;
+    /* border: solid black; */
+    justify-content: space-evenly;
+    background-color: white;
+    height: 25%;
+    margin: 5px;
+}
+.line2 {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid black; */
+    background-color: white;
+    height: 25%;
+    margin: 5px;
+}
+
+.line3 {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid black; */
+    background-color: white;
+    height: 25%;
+    margin: 5px;
+}
+
+.line4 {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid black; */
+    background-color: white;
+    height: 25%;
+    margin: 5px;
+}
+
+.number9, .number8, .number7,.number6,
+.number5,.number4,.number3,.number2,.number1,.number0 {
+    /* border: solid black; */
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 15px;
 }
