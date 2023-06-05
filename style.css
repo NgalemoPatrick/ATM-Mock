@@ -30,7 +30,6 @@ html, body {
 }
 .keyboard-container {
     display: flex;
-
     /* border: solid green; */
     margin: 85px;
     /* width: 100%; */
@@ -63,8 +62,10 @@ html, body {
 }
 
 .display {
+    border: 5px solid black;
     width: 60%;
-    background-color: aqua;
+    border-radius: 15pxit ;
+    /* background-color: aqua; */
 }
 .balance-inquiry {
     /* border: solid black; */
@@ -166,8 +167,10 @@ html, body {
     background-color: rgb(72, 133, 72);
 }
 .keyboard {
+    display: flex;
+    flex-direction: column;
     /* border: solid black; */
-    background-color: blue;
+    /* background-color: blue; */
     width: 75%;
 }
 
@@ -178,6 +181,7 @@ html, body {
     /* border: solid yellow; */
     /* background-color: yellow; */
     width: 25%;
+    /* height: 350px; */
 }
 .enter {
     /* border: solid black; */
@@ -217,7 +221,7 @@ html, body {
     justify-content: space-evenly;
     background-color: white;
     height: 25%;
-    margin: 5px;
+    margin: 3px;
 }
 .line2 {
     display: flex;
@@ -225,7 +229,7 @@ html, body {
     /* border: solid black; */
     background-color: white;
     height: 25%;
-    margin: 5px;
+    margin: 3px;
 }
 
 .line3 {
@@ -234,7 +238,7 @@ html, body {
     /* border: solid black; */
     background-color: white;
     height: 25%;
-    margin: 5px;
+    margin: 3px;
 }
 
 .line4 {
@@ -243,7 +247,7 @@ html, body {
     /* border: solid black; */
     background-color: white;
     height: 25%;
-    margin: 5px;
+    margin: 3px;
 }
 
 .number9, .number8, .number7,.number6,
@@ -256,4 +260,35 @@ html, body {
     text-align: center;
     padding-top: 15px;
     border-radius: 15px;
+}
+
+.number9:hover {
+        background-color: rgb(72, 133, 72);
+}
+.number8:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number7:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number6:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number5:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number4:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number3:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number2:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number1:hover {
+    background-color: rgb(72, 133, 72);
+}
+.number0:hover {
+    background-color: rgb(72, 133, 72);
 }
