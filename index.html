@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
-    <title>Home</title>
+    <title>Home Atm</title>
 </head> 
 <body>
     <!-- main container -->
@@ -21,16 +21,16 @@
             <div class="function-key-container">
                 <div class="function-left">
                     <!-- balance inquiry -->
-                    <div class="balance-inquiry">Balance Inquiry</div>
+                    <button class="balance-inquiry">Balance</button>
                     <!-- deposit -->
-                    <div class="deposit">Deposit</div>
+                    <button class="deposit">Deposit</button>
                     <!-- transfer -->
-                    <div class="transfer">Transfer</div>
+                    <button class="transfer">Transfer</button>
 
                 </div>
                 <!-- display -->
                 <div class="display">
-                    Welcome...
+                    WELCOME
                 </div>
                 <div class="function-right">
                     <!-- cash withdrawal -->
@@ -49,28 +49,28 @@
             <!-- first  line number -->
             <div class="line1">
                 <!-- number 7 to 9 -->
-                <div class="number9">9</div>
-                <div class="number8">8</div>
-                <div class="number7">7</div>
+                <div data-digit="9" class="number">9</div>
+                <div data-digit="8" class="number">8</div>
+                <div data-digit="7"  class="number">7</div>
             </div>
                 
             <!-- second line number -->
             <div class="line2">
                 <!-- number 4 to 6 -->
-                <div class="number6">6</div>
-                <div class="number5">5</div>
-                <div class="number4">4</div>
+                <div data-digit="6" class="number">6</div>
+                <div data-digit="5" class="number">5</div>
+                <div data-digit="4" class="number">4</div>
             </div>
             <!-- third line number -->
             <div class="line3">
                 <!-- number 7 to 9 -->
-                <div class="number3">3</div>
-                <div class="number2">2</div>
-                <div class="number1">1</div>
+                <div data-digit="3" class="number">3</div>
+                <div data-digit="2" class="number">2</div>
+                <div data-digit="1" class="number">1</div>
             </div>
             <!-- fourth line number -->
             <div class="line4">
-                <div class="number0">0</div>
+                <div data-digit="0"  class="number">0</div>
             </div>
         </div>
         <!-- enter cancel option --> 
@@ -81,5 +81,6 @@
             <div class="cancel">Cancel</div>
         </div>
     </div>
+    
 </body>
 </html>

@@ -17,7 +17,10 @@ html, body {
     background-color: #000;
 }
 .header h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
     color: white;
 }
 
@@ -259,8 +262,7 @@ html, body {
     margin: 3px;
 }
 
-.number9, .number8, .number7,.number6,
-.number5,.number4,.number3,.number2,.number1,.number0 {
+.number {
     /* border: solid black; */
     width: 100px;
     background-color: black;
@@ -271,43 +273,7 @@ html, body {
     border-radius: 15px;
 }
 
-.number9:hover {
+.number:hover {
         background-color: rgb(72, 133, 72);
         cursor: pointer;
-}
-.number8:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number7:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number6:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number5:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number4:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number3:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number2:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number1:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
-}
-.number0:hover {
-    background-color: rgb(72, 133, 72);
-    cursor: pointer;
 }
